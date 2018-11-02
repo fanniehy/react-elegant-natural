@@ -1,0 +1,125 @@
+.banner{
+	height: 550px;
+	background-color: #76cfde;
+	position: relative;
+}
+.indexFlower{
+	height: 90%;
+	width: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.indexTitle{
+	color: rgba(255,255,255,0.8);
+	font-size: 35px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.wish,.product,.times,.news,.searchName,.footerName{
+	width: 80%;
+	margin: 40px auto 60px;
+}
+.wish{
+	height: 425px;
+}
+.wishLeftContent{
+	font-size:16px;
+	font-family:'Fixedsys';
+	padding:10px;
+
+}
+.wishRight{
+	border-radius: 5px;
+	background:#f7f7f7 url('./../static/icon/wishFlower.png') no-repeat 325px -110px;
+	background-size: 80%;
+	box-sizing: border-box;
+}
+.gutter-row,.wishRight{
+	height: 100%;
+}
+.exceptional{
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 2px solid #f7f7f7;
+	box-sizing: border-box;	
+	height: 100%;
+}
+.exceptional p{
+	margin-bottom: 0;
+}
+.gift p{
+	margin: 0;
+	padding: 10px 0;
+}
+.worker,.videoPlay{
+	background-color: #eee;
+	/*padding: 50px 0;*/
+	margin:160px auto;
+}
+.workerContent{
+	position: relative;
+	padding: 40px 0;
+	width: 80%;
+	margin:0 auto;
+	height: 300px;
+}
+.workerImg{
+	position: absolute;
+	width: auto;
+	height: 120%;
+	bottom:0;
+	right: 0;
+}
+.product{
+	height: 700px;
+}
+.product .productContent,.productLeft,.productRight{
+	height: 100%;
+}
+.productLeft{
+	position: relative;
+	background-color: #f4f4f4;
+	overflow: hidden;
+}
+.productLeft img{
+	position: absolute;
+}
+.productRightBox{
+	height: 100%!important;
+	align-items: space-between;
+}
+.productRight .ant-row>div{
+	padding: 5px;
+	height: 50%;
+	box-sizing: border-box;
+}
+.forestImg{
+	position: absolute;
+	bottom:-80px;
+	right: -80px;
+}
+.vaseImgBox{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #f4f4f4;
+}
+.vaseBox{
+}
+.vaseBox img{
+	width: 30%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.search{
+	background-color: #eee;
+}
+.searchName{
+	padding: 50px 0;
+}

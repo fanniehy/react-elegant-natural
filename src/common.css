@@ -1,0 +1,47 @@
+p,div,input,button{
+  margin: 0;
+  padding: 0;
+}
+input{
+  outline-style: none;
+}
+button{
+	border:1px solid transparent;
+	outline: none;
+	background-color: none;
+}
+.set-middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.header{
+	padding: 10px 0;
+	background-color: #fff;
+	position: relative;
+}
+.logo{
+    margin-left: 20px;
+    height: 50px;
+    background-color: #000;
+	width: 20%;
+	max-width: 150px;
+	display: inline-block;
+}
+.navigation{
+	position: absolute;
+	right: 0;
+	top: 50%;
+    transform: translateY(-50%);
+	width: 60%;
+	display: inline-block;
+}
+.nav{
+	color: #000;
+}
+.footer{
+	background-color: #000;
+	color: #fff;
+	padding: 20px 0;
+}
